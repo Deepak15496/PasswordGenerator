@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    font-style: bold;
+    text-align: center;
+    color: rgba(99, 26, 3, 0.897)
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items:center;
+    gap: 40px;
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pass-Display{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    padding: 0 10px;   
+}
+
+#passDisplay{
+    border: 2px solid #ccc;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    border-radius: 5px;
+    font-style: bold;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+.pass-Display button{
+    background: none;
+    height: 100%;
+    border: 1px solid #131212;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'times new roman', Times, serif;
+    background-color: #499ef8;
+    padding: 10px;
+    color: white;
+}
+
+.passLength{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    font: 1em sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    justify-content: space-evenly;
+    gap: 5px;
+    align-items: center;
+    padding: 0 10px;   
+}
+
+.passLength input{
+    border: 2px solid #131212;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.options{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font: 1em sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    justify-content: space-evenly;
+    gap: 5px;
+    align-items: flex-start;
+    padding: 0 40px;   
+}
+
+.options div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
+}
+
+#generateBtn{
+    height: 40px;
+    width: 150px;
+    border: 1px solid #131212;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'times new roman', Times, serif;
+    background-color: #499ef8;
+    padding: 10px;
+    color: white;
+}
