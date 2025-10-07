@@ -55,7 +55,7 @@ function generatePassword() {
 const copyBtn = document.getElementById("copyBtn");
 copyBtn.addEventListener("click", ()=>{
     if(passwordDisplay.value){
-        navigator.clipboard.writeText(passwordDisplay).then(() => {
+        navigator.clipboard.writeText(passwordDisplay.value).then(() => {
             alert("Password copied to clipboard!"); 
         }).catch(err => {
             alert("Failed to copy to clipboard", err);
